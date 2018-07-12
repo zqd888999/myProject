@@ -27,7 +27,7 @@ public class Comment{
 	}
 	
 	public void addReplies(Comment element){
-		element.setComment(this);
+		element.setReplyto(this);
 	}
 	
 	public ArrayList<Comment> getReplies(){
